@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Página Responsiva</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <header class="bg-primary text-white text-center py-3">
+    <h1>Minha Página Web</h1>
+    <nav>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Contato</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container mt-5">
+    <section class="mb-5">
+      <div class="card p-3">
+        <h2 class="card-title">Seção 1</h2>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque urna eu tellus facilisis, et posuere magna bibendum. Aenean nec massa nec arcu malesuada vulputate.</p>
+      </div>
+    </section>
+    
+    <section class="mb-5">
+      <div class="card p-3">
+        <h2 class="card-title">Seção 2</h2>
+        <p class="card-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Quisque at dictum odio, non dictum libero.</p>
+      </div>
+    </section>
+    
+    <section class="mb-5">
+      <div class="card p-3">
+        <h2 class="card-title">Seção 3</h2>
+        <p class="card-text">Curabitur lobortis magna vitae quam sodales, nec dictum risus ullamcorper. Duis auctor, arcu at tincidunt vehicula, lacus velit pretium odio, a auctor risus metus et odio.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; <span id="current-year"></span> Minha Página Web. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
